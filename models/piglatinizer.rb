@@ -19,7 +19,7 @@ class PigLatinizer
 
   end
 
-  def
+  def sentence
 
   end
 end
