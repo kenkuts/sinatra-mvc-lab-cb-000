@@ -37,7 +37,7 @@ class PigLatinizer
   def sentence(words)
     translated_sentence = ""
     words.map do |word|
-      translated_sentence += word
+      translated_sentence += piglatinize(word)
     end
 
     translated_sentence
