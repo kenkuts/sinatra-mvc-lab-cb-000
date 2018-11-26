@@ -26,7 +26,7 @@ class PigLatinizer
         break if letter.scan(/[aeiou]/) != []
       end
 
-      first + middle + "ay"
+      return first + middle + "ay"
     end
   end
 
