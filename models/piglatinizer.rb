@@ -25,12 +25,11 @@ class PigLatinizer
 
   def individual_word(word)
     word + "way"
-
   end
 
   def sentence(words)
     words.each do |word|
-
+      
 
   end
 
