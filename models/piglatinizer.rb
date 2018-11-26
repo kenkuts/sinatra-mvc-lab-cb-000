@@ -1,5 +1,5 @@
 class PigLatinizer
-  attr_reader :word
+  attr_accessor :word
 
   def initialize(word)
     @word = word
@@ -18,5 +18,5 @@ class PigLatinizer
 
     first + middle + "ay"
   end
-  
+
 end
