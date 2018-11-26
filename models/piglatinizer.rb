@@ -1,7 +1,7 @@
 class PigLatinizer
 
   def piglatinize(sentence)
-    word = words.split(" ")
+    words = words.split(" ")
 
     if word.size > 1
       sentence(word)
