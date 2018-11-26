@@ -5,7 +5,7 @@ class PigLatinizer
     @word = word
   end
 
-  def piglatinize(word)
+  def piglatinize
     letters = word.split("")
     first = ""
     middle = ""
@@ -15,7 +15,7 @@ class PigLatinizer
       middle = word.slice(0, index)
       break if letter.scan(/[aeiou]/) != []
     end
-    
+
     first + middle + "ay"
   end
 
