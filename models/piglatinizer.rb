@@ -4,7 +4,7 @@ class PigLatinizer
     words = word.split(" ")
 
     if words.size > 1
-
+      sentence(words)
     end
 
   end
@@ -23,11 +23,13 @@ class PigLatinizer
     first + middle + "ay"
   end
 
-  def individual_word
+  def individual_word(word)
 
   end
 
-  def sentence
+  def sentence(words)
+    words.each do |word|
+      
 
   end
 
