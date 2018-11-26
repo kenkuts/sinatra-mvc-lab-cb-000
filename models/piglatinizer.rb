@@ -18,4 +18,8 @@ class PigLatinizer
   def individual_word
 
   end
+
+  def
+
+  end
 end
