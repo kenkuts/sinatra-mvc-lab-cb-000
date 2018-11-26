@@ -15,4 +15,7 @@ class PigLatinizer
     first + middle + "ay"
   end
 
+  def individual_word
+
+  end
 end
