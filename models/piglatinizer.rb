@@ -28,8 +28,9 @@ class PigLatinizer
   end
 
   def sentence(words)
-    words.each do |word|
-      
+    translated_sentence = ""
+    words.map do |word|
+      translated_sentence += word
 
   end
 
