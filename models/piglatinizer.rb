@@ -18,5 +18,5 @@ class PigLatinizer
 
     first + middle + "ay"
   end
-binding.pry
+  
 end
