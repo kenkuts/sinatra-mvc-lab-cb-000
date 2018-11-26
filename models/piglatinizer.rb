@@ -5,6 +5,8 @@ class PigLatinizer
 
     if words.size > 1
       sentence(words)
+    else
+      piglatinize_word(words)
     end
 
   end
