@@ -31,7 +31,7 @@ class PigLatinizer
     translated_sentence = ""
     words.map do |word|
       translated_sentence += word
-
+    end
   end
 
 end
