@@ -4,7 +4,7 @@ class PigLatinizer
     words = word.split(" ")
 
     if words.size > 1
-      
+
     end
     letters = word.split("")
     first = ""
@@ -21,6 +21,8 @@ class PigLatinizer
 
   def piglatinize_word
 
+  end
+
   def individual_word
 
   end
@@ -28,5 +30,5 @@ class PigLatinizer
   def sentence
 
   end
-  
+
 end
