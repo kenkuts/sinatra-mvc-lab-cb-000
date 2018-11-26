@@ -14,7 +14,7 @@ class PigLatinizer
   def piglatinize_word(word)
     letters = word.split("")
 
-    if letters.size == 1
+    if letters.scan(/I/) != nil
       individual_word(letters)
     else
       first = ""
