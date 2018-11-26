@@ -13,6 +13,7 @@ class PigLatinizer
 
   def piglatinize_word(word)
     letters = word.split("")
+
     if letters.size == 1
       individual_word(letters)
     else
