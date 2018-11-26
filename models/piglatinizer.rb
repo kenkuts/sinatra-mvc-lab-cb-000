@@ -1,6 +1,7 @@
 class PigLatinizer
 
   def piglatinize(word)
+    words = word.split(" ")
     letters = word.split("")
     first = ""
     middle = ""
