@@ -16,8 +16,8 @@ class PigLatinizer
 
     if letters.size == 1            # If theres only one letter in the word
       individual_word(letters)      # it adds 'way' at the end of the string
-    else
 
+    else                            
       first = ""
       middle = ""
 
