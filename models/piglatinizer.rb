@@ -30,7 +30,7 @@ class PigLatinizer
     end
   end
 
-  def individual_word(word)
+  def first_letter_vowel(word)
     word << "way"
     word.join("")
   end
