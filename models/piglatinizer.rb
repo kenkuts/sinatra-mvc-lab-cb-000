@@ -14,8 +14,8 @@ class PigLatinizer
     letters = word.first.split("")
 
     if letters[0].scan(/[aeiouAEIOU]/) != []
-      individual_word(letters)      # it adds 'way' at the end of the string
-
+      first_letter_vowel(letters)
+      
     else
       first = ""
       middle = ""
