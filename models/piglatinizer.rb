@@ -14,7 +14,7 @@ class PigLatinizer
   def piglatinize_word(word)
     letters = word.first.split("")
 
-    if letters.first.scan(/[aeiouAEIOU]/) != nil 
+    if if letters[0].scan(/[aeiouAEIOU]/) != []
       individual_word(letters)      # it adds 'way' at the end of the string
 
     else
