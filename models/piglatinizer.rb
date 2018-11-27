@@ -31,7 +31,8 @@ class PigLatinizer
   end
 
   def individual_word(word)
-    word.first + "way"
+    word << "way"
+    word.join("")
   end
 
   def sentence(words)
