@@ -21,12 +21,12 @@ class PigLatinizer
       middle = ""
 
       letters.each_with_index do |letter, index|
-        first = word.slice(index, word.size)
-        middle = word.slice(0, index)
+        first = word.first.slice(index, word.first.size)
+        middle = word.first.slice(0, index)
         break if letter.scan(/[aeiou]/) != []
       end
 
-      first + middle + "ay"
+       first + middle + "ay"
     end
   end
 
@@ -35,12 +35,13 @@ class PigLatinizer
   end
 
   def sentence(words)
-    translated_sentence = ""
-    words.map do |word|
-      translated_sentence += piglatinize(word)
+    translated_sentence = []
+
+    words.each do |word|
+      translated_sentence << piglatinize(word)
     end
 
-    translated_sentence
+    translated_sentence.join(" ")
   end
 
 end
